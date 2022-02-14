@@ -20,6 +20,6 @@ variable "subnet1_cidr" {
   type        = string
 }
 variable "key_name" {
-  default     = "tokyo_bhaskar"
+  default     = "tokyo"
   type        = string
 }
