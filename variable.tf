@@ -21,3 +21,7 @@ variable "subnet2_cidr" {
   default     = "10.10.2.0/24"
   type        = string
 }
+variable "key_name" {
+  default     = "tokyo_bhaskar"
+  type        = string
+}
