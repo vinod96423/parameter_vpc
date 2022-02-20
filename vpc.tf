@@ -9,7 +9,7 @@ resource "aws_vpc" "myvpc" {
   instance_tenancy = "default"
 
   tags = {
-    Name        = var.tagname
+    Name        = var.Tagname
     Owner       = var.Owner
     Service     = var.Service
     Terraform   = var.Terraform
