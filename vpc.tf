@@ -1,7 +1,7 @@
 provider "aws" {
   access_key = var.access-key
   secret_key = var.secret-key
-  region = "ap-northeast-1"
+  region = var.region
 }
 
 resource "aws_vpc" "myvpc" {
@@ -9,6 +9,10 @@ resource "aws_vpc" "myvpc" {
   instance_tenancy = "default"
 
   tags = {
-    Name        = "myvpc"
+    Name        = var.tagname
+    Owner       = var.Owner
+    Service     = var.Service
+    Terraform   = var.Terraform
+    Env         = var.Env
   }
 }
