@@ -23,3 +23,27 @@ variable "key_name" {
   default     = "tokyo"
   type        = string
 }
+variable "tagname" {
+  default     = "myvpc"
+  type        = string
+}
+variable "Owner" {
+  default     = "Vinod"
+  type        = string
+}
+variable "Service" {
+  default     = "Medical"
+  type        = string
+}
+variable "Terraform" {
+  default     = "True"
+  type        = string
+}
+variable "Env" {
+  default     = "Dev"
+  type        = string
+}
+variable "region" {
+  default     = "ap-northeast-1"
+  type        = string
+}
