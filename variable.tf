@@ -23,7 +23,7 @@ variable "key_name" {
   default     = "tokyo"
   type        = string
 }
-variable "tagname" {
+variable "Tagname" {
   default     = "myvpc"
   type        = string
 }
