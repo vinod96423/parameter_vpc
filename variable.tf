@@ -1,9 +1,9 @@
 variable "access-key" {
-  default     = "AKIA25YP2E72GQ75KEMU"
+  default     = "AKIAT22HECTVEKUEW6EP"
   type        = string
 }
 variable "secret-key" {
-  default     = "ld7mPE9Ko0kN6ot62ZdcukfE+lORm7J1iiuvH5w5"
+  default     = "HDE3fU/h1/iIkYN4rAkGwG/d3Z3zAQN+5dtaVAvl"
   type        = string
 }
 variable "web_ami" {
